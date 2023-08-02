@@ -1,0 +1,116 @@
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../fonts/static/HankenGrotesk-Medium.ttf");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../fonts/static/HankenGrotesk-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../fonts/static/HankenGrotesk-ExtraBold.ttf");
+	font-weight: 800;
+	font-style: normal;
+}
+body{
+	min-height: 100vh;
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+h1{
+	font-size: 53px;
+}
+p{
+	font-size: 18px;
+}
+.main{
+	max-width: 1440px;
+	border-radius: 30px;
+	box-shadow: 20px 30px 20px 0px #e7e9fa;
+}
+#left-side{
+	background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	border-radius: 30px;
+}
+#perc-circle{
+	background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	width: 200px;
+	height: 200px;
+}
+.result-title{
+	color: #C8C7FF;
+}
+.current-score{
+	font-weight: 800;
+	color: #FFF;
+}
+.total-score{
+	color: #C8C7FF;
+}
+.score-title{
+	color: #FFF;
+}
+.score-desc{
+	color: #C8C7FF;
+}
+
+#summary{
+	color: hsl(224 30% 27%);
+	font-weight: 700;
+}
+#reaction{
+	background-color: hsl(0deg 100% 67% / 10%);
+	border-radius: 5px;
+}
+#reaction > div:first-child, #reaction > div:nth-child(2){
+	color: hsl(0 100% 67%);
+}
+#memory{
+	background-color: hsl(39 100% 56% / 10%);
+	border-radius: 5px;
+}
+#memory > div:first-child, #memory > div:nth-child(2){
+	color: hsl(39 100% 56%);
+}
+#verbal{
+	background-color: hsl(166 100% 37% / 10%);
+	border-radius: 5px;
+}
+#verbal > div:first-child, #verbal > div:nth-child(2){
+	color: hsl(166 100% 37%);
+}
+#visual{
+	background-color: hsl(234 85% 45% / 10%);
+	border-radius: 5px;
+}
+#visual > div:first-child, #visual > div:nth-child(2){
+	color: hsl(234 85% 45%);
+}
+.percent{
+	color: hsl(224 30% 27% / 50%);
+	font-weight: 800;
+}
+.percent-current{
+	color: #303B5A;
+	font-weight: 800;
+}
+[class^="material-symbols-"]{
+	display: block;
+}
+.btn{
+	background-color: #303B5A;
+	color: #FFF;
+}
+
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
