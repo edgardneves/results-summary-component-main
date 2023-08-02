@@ -1,4 +1,4 @@
-# Calculator App
+# Results summary component
 
 Challenge "Results summary component" from Frontend Mentor.
 
